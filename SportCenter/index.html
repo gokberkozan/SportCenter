@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Center</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+    <div class="out-navbar">
+        <div class="navbarbg">
+            <div class="navbar">
+                <img class="logo" src="Images/logo.png" alt="Logo_powerfull">
+                <div class="sidebyside">
+                    <div class="navbar-menu-toggle" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-wrapper">
+                        <ul class="navbar-ul" id="navbarUl">
+                            <li><a href="#top">Home</a></li>
+                            <li><a href="#secondback">Classes</a></li>
+                            <li><a href="#part-3">Trainer</a></li>
+                            <li><a href="#review">Review</a></li>
+                            <li><a href="#contact">Contact us</a></li>
+                            <li>
+                                <a href="#contact"></a>
+                                <button class="join" onclick="window.location.href='#footer'">JOIN US</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="nav-down">
+            <p class="powerfull">POWERFULL</p> <br>
+            <p class="manşet poppins-bold">Group <br> Practice <br> With Trainer</p>
+            <p class="opak">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, commodi quam fuga maxime alias dolores laudantium iure ipsam. Natus, commodi repellat! Rerum dolores sed quae sunt laudantium officiis adipisci laborum!</p>
+
+        </section>
+        <div class="navbutons">
+            <button class="signUp">Sign up</button>
+            <button class="details">Details</button>
+        </div>
+
+    </div>
+
+    <section>
+        <ul class="derece " id="secondback">
+            <li>
+                <p class="num">325</p> <span>Course</span></li>
+            <li>
+                <p class="num">405</p> <span>Workout</span></li>
+            <li>
+                <p class="num">305</p> <span> Working Hour</span></li>
+            <li>
+                <p class="num">705</p> <span>Happy Client</span> </li>
+            <br><br>
+        </ul>
+    </section>
+
+    <section class="secondback">
+        <div class="back">
+        </div>
+        <div class="divdivdiv">
+            <br>
+            <h1>OUR CLASSES</h1>
+            <p class="orangep" style="text-align: center;">---------</p>
+            <p style="text-align: center; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illum accusantium non ea explicabo corporis quod culpa qui enim rem.</p>
+        </div>
+        <section class="ortala">
+            <div class="container">
+                <div class="direction-group">
+                    <ul class="direction">
+                        <li><button onclick="showContent('yoga')">Yoga</button></li>
+                        <li><button onclick="showContent('group')">Group</button></li>
+                    </ul>
+                </div>
+                <div class="direction-group">
+                    <ul class="direction">
+                        <li><button onclick="showContent('solo')">Solo</button></li>
+                        <li><button onclick="showContent('stretching')">Stretching</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btnimg">
+                <section class="organic">
+                    <div id="yogaContent">
+                        <h2>Why Are Your Yoga Time</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem pariatur accusamus natus dolorem amet sunt ad corporis animi sequi nulla.</p><br><br>
+                        <h2>When comes Yoga Your Time</h2>
+                        <p>Saturday-Sunday:8:00am - 10:00am</p> <br>
+                        <p>Monday-Tuesday:10:00am - 12:00pm</p> <br>
+                        <p>Wednesday-Friday:3:00pm - 6:00pm</p>
+                    </div>
+                    <div id="groupContent" style="display: none;">
+                        <h2>Why Are Your Group Time</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni pariatur est facere corporis excepturi sed facilis atque alias hic molestias?</p><br><br>
+                        <h2>When comes Group Your Time</h2>
+                        <p>Saturday-Sunday:8:00am - 18:00am</p> <br>
+                        <p>Monday-Tuesday:10:00am - 11:00pm</p> <br>
+                        <p>Wednesday-Friday:3:00pm - 11:00pm</p>
+                    </div>
+                    <div id="soloContent" style="display: none;">
+                        <h2>Why Are Your Solo Time</h2><br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dolore non ullam fugit mollitia delectus excepturi ad. Ex ea commodi distinctio.<br><br>
+                        <h2>When comes Solo Your Time</h2><br>
+                        <p>Saturday-Sunday:8:00am - 11:00am</p> <br>
+                        <p>Monday-Tuesday:10:00am - 13:00pm</p> <br>
+                        <p>Wednesday-Friday:3:00pm - 7:00pm</p>
+                    </div>
+                    <div id="stretchingContent" style="display: none;">
+                        <h2>Why Are Your Stretching Time</h2><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, doloremque ex adipisci provident amet illum aspernatur soluta nisi.<br><br>
+                        <h2>When comes Stretching Your Time</h2>
+                        <p>Saturday-Sunday:8:00am - 14:00am</p> <br>
+                        <p>Monday-Tuesday:10:00am - 15:00pm</p> <br>
+                        <p>Wednesday-Friday:3:00pm - 9:00pm</p>
+                    </div>
+                </section>
+                <div class="image-content">
+                    <img id="yogaImage" src="Images/yoga.jpg" alt="">
+                    <img id="groupImage" src="Images/group.webp" alt="" style="display: none;">
+                    <img id="soloImage" src="Images/solo.jpg" alt="" style="display: none;">
+                    <img id="stretchingImage" src="Images/stret.webp" alt="" style="display: none;">
+                </div>
+            </div>
+        </section>
+        <br><br>
+    </section>
+
+    <section class="bmi">
+        <div class="bmiContet">
+            <h2>BMI Calculator</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi totam dolore consequatur iure a nihil ut incidunt non nemo, atque molestiae eius dolores molestias distinctio repudiandae libero, dolorem odio expedita reprehenderit eveniet!
+                Ea perferendis amet, repellat repudiandae, id suscipit officiis omnis laboriosam, perspiciatis tempora non libero sed cupiditate quae optio.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, natus recusandae. Soluta aliquid incidunt dolorum at quisquam, illo ut tempora repellendus totam provident porro molestias, dolorem a, quidem amet voluptatibus id quod veritatis
+                beatae! Enim nisi doloremque odit, asperiores maxime vero? Adipisci pariatur corporis consequatur culpa dicta eveniet rerum provident..</p>
+            <br><br>
+            <section class="text">
+                <input type="number" id="height" placeholder="Your Height (cm)">
+                <input type="number" id="weight" placeholder="Your Weight (kg)">
+                <button onclick="calculateBMI()">Calculate BMI</button>
+            </section>
+        </div>
+        <div class="yourbm" id="part-3">
+            <h1>Your BMI</h1>
+            <p id="bmiValue" style="text-align: center;"></p>
+            <div class="divdir">
+                <img class="image" src="Images/bmi-index.jpg" alt="">
+                <div class="divdir2"></div>
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <div class="part-3-section">
+        <section class="part-3">
+            <br>
+            <div class="trainers">
+                <h1 style="text-align: center;">OUR BEST TRAINERS</h1>
+                <p class="orangep" style="text-align: center;">---------</p>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa error ullam ea commodi delectus pariatur illum esse unde, aperiam nostrum?</p>
+            </div>
+            <section class="part-3-up">
+                <div class="image-container">
+                    <img src="Images/trainer1.jpg" alt="">
+                    <div class="divdiv2">
+                        <div class="divdiv3"></div>
+                    </div>
+                    <div class="bottombox">
+                        <div class="boxbox">
+                            <div class="boxbox2"></div>
+                        </div>
+                        <div class="overlay">Jannie Doe<br>Personal Trainer</div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="Images/trainer2.jpg" alt="">
+                    <div class="divdiv2">
+                        <div class="divdiv3"></div>
+                    </div>
+                    <div class="bottombox">
+                        <div class="boxbox">
+                            <div class="boxbox2"></div>
+                        </div>
+                        <div class="overlay">John Doe<br>Body Builder</div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="Images/trainer3.jpg" alt="">
+                    <div class="divdiv2 ">
+                        <div class="divdiv3"></div>
+                    </div>
+                    <div class="bottombox">
+                        <div class="boxbox">
+                            <div class="boxbox2"></div>
+                        </div>
+                        <div class="overlay">Jane Doe<br>Cardio trainer</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="part-3-down">
+            <div class="purchasetext">
+                <h1>PURCHASE FROM US</h1>
+                <p class="orangep" style="text-align: center;">---------</p>
+                <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur libero quia tempora non aspernatur ipsum, fugit cum magni eum, incidunt voluptate saepe dolorem! Iusto molestias magni veniam sunt numquam ex quidem qui reprehenderit
+                    nihil! Ea ducimus dolorem voluptatem assumenda eos doloribus?</p>
+            </div>
+            <section class="down-images">
+                <div class="card">
+                    <img src="Images/purchase1.jpg" alt="Kart resmi">
+                    <div class="card-info">
+                        <h2>Ketllebel / 5 kg</h2>
+                        <p><s>89,99$</s> / 59.99$</p>
+                        <div class="card-icon">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqpO7rojXZGqfjRnVTTeAahaqa_zCmTXTrQ&usqp=CAU" alt="Sepet simgesi" class="cart-icon">
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="icon" src="Images/purchase2.jpg" alt="Kart resmi">
+                    <div class="card-info">
+                        <h2>Treadmill</h2>
+                        <p><s>899,99$</s> / 599.99$</p>
+                        <div class="card-icon">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqpO7rojXZGqfjRnVTTeAahaqa_zCmTXTrQ&usqp=CAU" alt="Sepet simgesi" class="cart-icon">
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/purchase3.jpg" alt="Kart resmi">
+                    <div class="card-info">
+                        <h2>Adjustable Dumbbell</h2>
+                        <p><s>89,99$</s> / 59.99$</p>
+                        <div class="card-icon">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqpO7rojXZGqfjRnVTTeAahaqa_zCmTXTrQ&usqp=CAU" alt="Sepet simgesi" class="cart-icon">
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/purchase4.jpg" alt="Kart resmi">
+                    <div class="card-info">
+                        <h2>Kettlebell / 3kg</h2>
+                        <p><s>89,99$</s> / 59.99$</p>
+                        <div class="card-icon">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqpO7rojXZGqfjRnVTTeAahaqa_zCmTXTrQ&usqp=CAU" alt="Sepet simgesi" class="cart-icon">
+                            <p>Add to Cart</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <br><br>
+        </section>
+    </div>
+
+    <section class="part-4" id="review">
+        <section class="part-4-up">
+            <div class="revtext">
+                <br>
+                <h1>REVIEW CLIENT</h1>
+                <p style="text-align: center;">---------</p>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolor deleniti reiciendis vel doloremque! Minima non, odit sunt iste et autem soluta consequatur vel nisi, odio expedita eum, dolore eaque corrupti repellendus?</p>
+            </div>
+            <div class="review-container">
+                <div class="review-item">
+                    <div class="together">
+                        <img src="Images/client1.jpg" alt="Client 1">
+                        <div class="review-text">
+                            <p>Diet Expert</p>
+                            <p>CFO</p>
+                        </div>
+                    </div>
+                    <div class="message-balloon">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus architecto voluptates corrupti debitis voluptas officia veritatis voluptatum reprehenderit!</p>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="together">
+                        <img src="Images/client2.jpg" alt="Client 2">
+                        <div class="review-text">
+                            <p>Cardio Trainer</p>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                    <div class="message-balloon">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus architecto voluptates corrupti debitis voluptas officia veritatis voluptatum reprehenderit!</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
+
+        <section class="part-4-down" id="contact">
+            <h1 style="text-align: center;">CONTACT US</h1>
+            <p style="text-align: center;">---------</p>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="text-map">
+                <div class="texts">
+                    <div class="comtext">
+                        <p>Mobile Number <br> +0535 555 6666</p>
+                        <p>Email Address <br> kodluyoruz@patika.dev</p>
+                    </div>
+                    <h3>Make An Appoinment</h3>
+                    <div class="inputs">
+                        <input type="text" id="name" placeholder="Your Name">
+                        <input type="email" id="email" placeholder="Your Email">
+                        <input type="text" id="address" placeholder="Your Address">
+                    </div>
+                    <br>
+                </div>
+                <iframe width="400" height="350" style="border:0; margin: 0 auto; display: block;" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.0308947739943!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3AYOUR_PLACE_NAME!2sYOUR_PLACE_NAME!5e0!3m2!1sen!2sus!4v1567609050964!5m2!1sen!2sus"
+                    allowfullscreen></iframe>
+            </div>
+            <br><br>
+        </section>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="footer-up">
+            <img src="Images/logo.png" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, cumque quibusdam libero quaerat nulla nam possimus ducimus maxime tenetur rerum voluptatum fugiat ipsam culpa non iusto? Voluptate illo natus quasi consectetur quod facere?
+                Vitae?</p>
+        </div>
+        <div class="footer-down">
+            <div class="part1" id="join">
+                <h4>Information</h4>
+                <p>About us</p>
+                <p>Classes</p>
+                <p>Blog</p>
+                <p>Contact</p>
+            </div>
+            <div class="part2">
+                <h4>Helpful Links</h4>
+                <p>Services</p>
+                <p>Supports</p>
+                <p>Terms & Condition</p>
+                <p>Privacy Policies</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
