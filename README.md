@@ -14,3 +14,5 @@ By giving them access to helpful resources and knowledge about fitness and wellb
   Users can find their Body Mass Index and monitor their level of fitness by inputting their height and weight into the website's BMI calculator.
 - #### Mobile-Friendly Navigation:
   The navigation bar is simple to use on a range of screen sizes thanks to its mobile device optimization.
+
+Click here for the live version of the [project](https://sportcenter1.netlify.app).
