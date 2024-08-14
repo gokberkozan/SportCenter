@@ -57,24 +57,12 @@ body {
     margin-top: -10px;
 }
 
-
-/* NAVBAR */
-
-
-/* Part-1 background */
-
 .out-navbar {
     background-image: url(Images/hero-man.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
-/* Part-1 background */
-
-
-/* navbar background */
 
 .navbarbg {
     position: fixed;
@@ -85,12 +73,6 @@ body {
     z-index: 1000;
     transition: background-color 0.3s ease;
 }
-
-
-/* navbar background */
-
-
-/* navbar down section */
 
 .powerfull {
     color: white;
@@ -166,12 +148,6 @@ body {
     margin-right: 300px;
 }
 
-
-/* navbar down section */
-
-
-/* Part-1 box */
-
 .derece {
     display: flex;
     flex-direction: row;
@@ -199,18 +175,9 @@ body {
     font-size: 25px;
 }
 
-
-/* Part-1 box */
-
 h1 {
     text-align: center;
 }
-
-
-/* ----------------------------------- */
-
-
-/* PART-2 */
 
 .secondback {
     position: relative;
@@ -235,7 +202,6 @@ h1 {
     top: 0;
     left: 0;
     clip-path: polygon(0 100%, 53% 100%, 37% 0, 0 0);
-    /* Sol kenarı %39 sağa çektik */
     background-color: white;
     z-index: -1;
 }
@@ -245,7 +211,7 @@ h1 {
 }
 
 
-/* BUTONLAR */
+/* BUTTONS */
 
 .container {
     display: flex;
@@ -279,12 +245,6 @@ h1 {
     background-color: orange;
 }
 
-
-/* BUTONLAR */
-
-
-/* BUTON CONTENT */
-
 .btnimg {
     display: flex;
     justify-content: space-between;
@@ -315,9 +275,6 @@ h1 {
     flex: 1;
     padding-left: 10px;
 }
-
-
-/* BUTON CONTENT */
 
 
 /* BMI CALCULATER */
@@ -360,12 +317,6 @@ h1 {
 }
 
 
-/* BMI CALCULATER */
-
-
-/* ----------------------------------- */
-
-
 /* OUR BEST TRAINERS */
 
 .part-3 {
@@ -399,7 +350,6 @@ h1 {
 
 .image-container img {
     border: 2px solid yellow;
-    /* Sarı ince çerçeve */
 }
 
 .divdiv2 {
@@ -420,7 +370,6 @@ h1 {
     width: 115%;
     height: 105%;
     transform: translate(-50%, -50%) rotate(90deg);
-    /* 90 derece döndür */
     top: 50%;
     left: 50%;
     background-color: rgb(32, 30, 152);
@@ -433,14 +382,12 @@ h1 {
     left: 0;
     width: 100%;
     height: 50%;
-    /* Kutuların olduğu kısmın yüksekliği */
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 2;
-    /* Overlay kutuların üzerinde olacak */
 }
 
 .boxbox {
@@ -450,9 +397,7 @@ h1 {
     height: 45%;
     background-color: rgb(80, 119, 210);
     z-index: 1;
-    /* Overlay kutunun altında olacak */
     top: calc(100% + -40%);
-    /* Resmin altında 20px boşluk bırak */
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -465,12 +410,9 @@ h1 {
     left: 0;
     background-color: rgb(80, 119, 210);
     z-index: 1;
-    /* Overlay kutunun altında olacak */
     top: calc(100% + -50%);
-    /* Resmin altında 20px boşluk bırak */
     left: 50%;
     transform: translate(-50%, -50%) rotate(90deg);
-    /* 90 derece döndür */
 }
 
 .bottombox:hover {
@@ -481,7 +423,6 @@ h1 {
     color: white;
     text-align: center;
     z-index: 3;
-    /* Diğer kutuların üzerinde olacak */
     position: absolute;
     top: 60%;
     left: 50%;
@@ -495,7 +436,6 @@ h1 {
 
 .image-container:hover .bottombox {
     opacity: 1;
-    /* Hover durumunda görünür yap */
 }
 
 .down-images {
@@ -515,7 +455,7 @@ h1 {
 }
 
 
-/* cards */
+/* Cards */
 
 .card {
     display: flex;
@@ -545,9 +485,6 @@ h1 {
     margin: 10px 0;
 }
 
-
-/* cards */
-
 .card-icon {
     display: flex;
     gap: 50px;
@@ -572,12 +509,6 @@ h1 {
     margin-top: 20px;
     margin-left: 500px;
 }
-
-
-/* ----------------------------------- */
-
-
-/* PART-4 */
 
 .part-4 {
     background-color: white;
@@ -621,26 +552,19 @@ h1 {
     flex-direction: column;
     gap: 20px;
     text-align: left;
-    /* İçeriği sola yasla */
 }
 
 .review-item img {
     width: 50px;
-    /* Genişlik */
     height: 50px;
-    /* Yükseklik */
     object-fit: cover;
-    /* Resmi orantılı şekilde sığdır */
     border-radius: 50%;
-    /* Yuvarlak kenarlar için */
 }
 
 .together {
     display: flex;
     align-items: center;
-    /* Öğeleri dikeyde hizala */
     gap: 20px;
-    /* Öğeler arasına boşluk ekle */
 }
 
 .review-container {
@@ -677,11 +601,9 @@ h1 {
     content: "";
     position: absolute;
     bottom: -20px;
-    /* Üçgenlerin boyutunu büyütmek için bottom değerini arttırın */
     left: 0;
     border-style: solid;
     border-width: 20px 0 0 20px;
-    /* Üçgenlerin boyutunu büyütmek için border-width değerlerini arttırın */
     border-color: #5638ea transparent transparent transparent;
 }
 
@@ -689,11 +611,9 @@ h1 {
     content: "";
     position: absolute;
     bottom: -20px;
-    /* Üçgenlerin boyutunu büyütmek için bottom değerini arttırın */
     right: 0;
     border-style: solid;
     border-width: 20px 20px 0 0;
-    /* Üçgenlerin boyutunu büyütmek için border-width değerlerini arttırın */
     border-color: #5638ea transparent transparent transparent;
 }
 
@@ -738,71 +658,54 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-/* 576px için @media sorgusu */
-
 @media screen and (max-width: 576px) {
     .image-container {
         position: relative;
         width: auto;
         height: auto;
         margin-bottom: 30px;
-        /* Margin azaltıldı */
         z-index: 1;
         margin-bottom: 100px;
     }
     .image-container img {
         border: 1px solid yellow;
-        /* Çerçeve kalınlığı azaltıldı */
     }
     .divdiv2 {
         width: 115%;
-        /* Genişlik %100 yapıldı */
         height: 30%;
-        /* Yükseklik azaltıldı */
         z-index: -1;
         margin-left: 7px;
     }
     .divdiv3 {
         width: 118%;
-        /* Genişlik artırıldı */
         height: 75%;
-        /* Yükseklik artırıldı */
         z-index: -1;
     }
     .bottombox {
         height: 40%;
-        /* Kutuların yüksekliği azaltıldı */
     }
     .boxbox {
         height: 40%;
-        /* Kutuların yüksekliği azaltıldı */
         top: calc(100% + -30%);
-        /* Resmin altında 15px boşluk bırak */
         margin-left: 5px;
     }
     .boxbox2 {
         height: 250%;
-        /* Kutuların yüksekliği artırıldı */
         top: calc(100% + -60%);
-        /* Resmin altında 30px boşluk bırak */
     }
     .bottombox {
         margin-bottom: 20px;
     }
     .bottombox .overlay {
         top: 70%;
-        /* Overlay kutunun konumu değiştirildi */
         font-size: 13px;
     }
     .image-container:hover .divdiv2 {
         height: 80%;
-        /* Hover durumunda yükseklik artırıldı */
         transition: all 0.4s;
     }
     .image-container:hover .bottombox {
         opacity: 1;
-        /* Hover durumunda görünür yap */
     }
     body {
         display: flex;
@@ -816,7 +719,6 @@ h1 {
         background-repeat: no-repeat;
         background-position: center;
     }
-    /* NAVBAR */
     .navbar {
         display: flex;
         max-width: 90%;
@@ -883,7 +785,7 @@ h1 {
         height: 90px;
         width: 200px;
     }
-    /* navbar down section */
+    /* Navbar down section */
     .powerfull {
         margin-left: 20px;
         margin-top: 150px;
@@ -916,8 +818,6 @@ h1 {
         margin-left: 20px;
         width: 40%;
     }
-    /* navbar down section */
-    /* Part-1 box */
     .derece {
         padding: 15px;
         flex-wrap: wrap;
@@ -928,8 +828,6 @@ h1 {
         margin-right: 15px;
         margin-bottom: 15px;
     }
-    /* Part-1 box */
-    /* Part-2 */
     .secondback {
         max-width: 100%;
         position: relative;
@@ -980,8 +878,6 @@ h1 {
         height: auto;
         margin-bottom: 20px;
     }
-    /* Part-2 */
-    /* BMI CALCULATER */
     .bmi {
         flex-direction: column;
         max-width: 100%;
@@ -1020,8 +916,6 @@ h1 {
     .divdir2 {
         left: 30px;
     }
-    /* BMI CALCULATER */
-    /* OUR BEST TRAINERS */
     .part-3 {
         align-items: center;
         flex-direction: column;
@@ -1036,7 +930,6 @@ h1 {
     .part-3-up img {
         width: 230px;
     }
-    /* OUR BEST TRAINERS */
     .part-3-section {
         max-width: 100%;
     }
@@ -1084,7 +977,6 @@ h1 {
         padding: 20px;
         margin-top: 20px;
     }
-    /* PART-4 */
     .part-4 {
         font-size: 13px;
         max-width: 100%;
